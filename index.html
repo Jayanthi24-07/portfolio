@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: black;    
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+}.content h2{
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+    margin-bottom: 5%;
+}
+.content h3{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+    color: rgb(183, 40, 88);
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 6%;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: 3%;
+    
+}
+button:hover{
+    background:red;
+}
+
+.image{
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 5%;
+
+}
+@media  screen and (max-width:1200px) {
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -2%;
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        height: 15rem;
+    }
+
+    
+}
+        </style>
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <li>Home</li>
+            <li>About</li> 
+            <li>Contact</li>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="content"> 
+            <h2>I'm,<b>Jayanthi</b></h2>
+            
+            <p>Rising senior at Arignar Anna Government Arts college studing <b>computer science</b> with carrer interests 
+            <b>web Develpment</b>,sports,and music.</p>
+            <button>Resume</button>
+        </div>
+        <div class="image">
+            <img src="C:\Users\ELCOT\Documents\vscode\jai\jayanthi.jpg"
+            width="300" height="400">
+        </div>
+    </div>
+    
+</body>
+</html>
